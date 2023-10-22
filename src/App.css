@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Recursive&display=swap');
+
+* {
+    font-family: 'Recursive', sans-serif;
+}
+
+h2 {
+    margin-top: -3px;
+    color: white;
+}
+
+.searchBar{
+    display: flex;
+    justify-content:center;
+    margin: auto;
+    flex-direction: row;  
+}
+
+.cityInput{
+    background-color: rgb(255, 255, 255);
+    width: 300px;
+    border-style: none;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;    
+    padding: 16px 6px;
+    box-shadow: 1px 1px 20px 1px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.2s;
+}
+
+.getWeatherButton{
+    background-color: rgb(255, 219, 100);
+    border-style: none;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    padding: 16px 6px;
+    width: 50px;
+    cursor: pointer;
+    box-shadow: 1px 1px 20px 1px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.2s;
+}
+
+.searchIcon{
+    width: 12px;
+}
+
+.weatherData{
+    margin: auto;
+    margin-top: 15px;
+    background-color: rgb(255, 255, 255);
+    width: 600px;
+    height: 350px;
+    border-radius: 2px;
+    position: relative;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    box-shadow: 1px 1px 20px 1px rgba(0, 0, 0, 0.2);
+}
+
+.cityInput:hover{
+    background-color: rgb(245, 245, 245);
+}
+.getWeatherButton:hover{
+    background-color: rgb(240, 206, 93);
+}
+
+.weatherIcon{
+    position: relative;
+    width: 80px;
+    top: 80px;
+    margin: auto;
+    background-color: rgb(43, 43, 43);
+    border-radius: 50px;
+    padding: 5px;
+    object-fit: contain;
+}
+
+.weatherPlace{
+    position: relative;
+    margin: auto;
+    text-align: center;
+    bottom: 85px;
+    font-size: 18px;
+}
+
+.belowIconData{
+    position: relative;
+    margin: auto; 
+    text-align: center;
+    top: 100px;
+}
+
+.tempDiv{
+    position: relative;
+    font-weight: bold;
+    font-size: 30px;
+    bottom: 35px;
+}
+
+.timeDiv{
+    position: relative;
+    font-size: 13px;
+    bottom: 20px;
+}
+
+.conditionDiv{
+    position: relative;
+    font-size: 21px;
+    bottom: 12px;
+}
+
+.humidityDiv, .pressureDiv{
+    position: relative;
+}
+
+.futureWeatherData{
+    display: flex;
+    position: relative;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.futureWeather{
+    position: relative;
+    background-color: white;
+    width: 140px;
+    display: inline-block;
+    margin-left: 8px;
+    border-radius: 10px;
+    padding: 6px 4px;
+    box-shadow: 1px 1px 20px 1px rgba(0, 0, 0, 0.2);
+}
+
+.futureDate, .futureIcon, .futureTemp{
+    margin: auto;
+    text-align: center;
+}
+
+.futureIcon{
+    background-color: rgb(0, 174, 255);
+    border-radius: 50px;
+    margin: 7px 0px;
+}
+
+*:focus {
+    outline: none;
+}
